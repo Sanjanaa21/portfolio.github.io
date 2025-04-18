@@ -1,124 +1,76 @@
 # portfolio.github.io
-<!DOCTYPE html>
-<html lang="en">
+# Sanjana Bhat | Portfolio 👋
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!--     <meta name="description" content="Sanjana Bhat's portfolio showcasing skills, projects, and contact details"> -->
-    <meta name="author" content="Sanjana Bhat"> 
-    <title>Sanjana Bhat | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-</head>
+I am passionate about technology and problem-solving.
 
-<body>
- <header>
-        <h1>Hello, I'm Sanjana Bhat👋</h1>
-        <p>I am passionate about technology and problem-solving.</p>
-    </header>
-    <main>
-       <!-- About Me Section -->
-       <section id="AboutMe" class="section">
-            <h2>About Me</h2>
-            
-           <p>I'm a 6th semester Computer Science Engineering student at KLE Technological University, with a CGPA of 9.20. I’m passionate about using technology to solve real-world problems and create meaningful user experiences.</p>
-           <p>I am passionate about technology and problem-solving.  Beyond technical skills, I’m deeply curious about how tech impacts businesses and society. I’ve explored several business case studies and continuously strive to build software that aligns with user needs and market trends.</p> 
-           <p>I’m always eager to learn, collaborate, and take on new challenges. Let’s connect and build something impactful together!</p>
-       </section>
+## 📌 About Me
 
-        <!-- Skills Section -->
-        <section id="skills" class="section">
-            <h2>Skills</h2>
-            <h3>Technical Skills</h3>
-            <ul>
-                <li><strong>Languages:</strong> C, C++, Java, Python, SQL</li>
-                <li><strong>Web Technologies:</strong> HTML, CSS, JavaScript, Node.js, React.js, Express.js</li>
-                <li><strong>Databases:</strong> MySQL, MongoDB</li>
-            </ul>
-            <h3>Soft Skills</h3>
-            <ul>
-                <li>Communication</li>
-                <li>Teamwork</li>
-                <li>Problem Solving</li>
-            </ul>
-        </section>
-           
-        <!-- Walmart Introduction Section -->
-<section id="walmart-intro" class="section">
-    <h2>Domain Chosen : Walmart</h2>
-    <p>Walmart Inc. is a multinational retail corporation that operates a chain of hypermarkets, discount department stores, and grocery stores. Headquartered in Bentonville, Arkansas, Walmart was founded by Sam Walton in 1962 and incorporated on October 31, 1969.</p>
-    <p>With a strong presence both in the United States and internationally, Walmart is known for its cost leadership strategy, massive supply chain, and use of technology to improve retail experiences. The company has consistently ranked among the top Fortune Global 500 companies and continues to drive innovation in retail through AI, automation, and data-driven solutions.</p>
-    <p>This portfolio explores various innovative business cases that showcase how the company matches technology to stay ahead in the global market.</p>
-</section>
-        
-        <!-- Business Cases Section -->
-        <section id="business-cases" class="section">
-            <h2>Business Cases</h2>
-            <div class="use-case">
-                <h3>Inventory Management System</h3>
-                <p>Uses AI and data structures to track and forecast inventory in real-time to reduce stockouts and automate restocking.</p>
-            </div>
-            <div class="use-case">
-                <h3>Autonomous Delivery Trucks</h3>
-                <p>Uses autonomous vehicles for last-mile delivery, enhancing logistics and reducing costs.</p>
-            </div>
-            <div class="use-case">
-                <h3>AI-Powered Customer Service Chatbots</h3>
-                <p>Chatbots handle queries like order tracking and availability, improving customer satisfaction.</p>
-            </div>
-            <div class="use-case">
-                <h3>Personalized Shopping Experience</h3>
-                <p>Machine learning provides product recommendations, increasing engagement and conversion.</p>
-            </div>
-            <div class="use-case">
-                <h3>Predictive Analytics for Pricing Strategy</h3>
-                <p>Uses real-time analytics to adjust prices based on demand, competition, and market trends.</p>
-            </div>
-        </section>
-     <!-- Find Me Online Section -->
-<!--         <section id="contact" class="section">
-            <h2>🌐 Find Me Online</h2>
-            <ul>
-                <li><a href="https://github.com/your-github-username" target="_blank">GitHub</a></li>
-                <li><a href="https://linkedin.com/in/your-linkedin-profile" target="_blank">LinkedIn</a></li>
-            </ul>
-        </section> -->
-      
-        <!-- Portfolio Details Section -->
-        <section id="details" class="section">
-            <h2>Portfolio Details</h2>
-            <dl>
-                <dt><strong>Course Name</strong></dt>
-                <dd>Algorithmic Problem Solving</dd>
+I'm a 6th semester Computer Science Engineering student at **KLE Technological University**, with a **CGPA of 9.20**.  
+I’m passionate about using technology to solve real-world problems and create meaningful user experiences.  
 
-                <dt><strong>Course Code</strong></dt>
-                <dd>Course Code Placeholder</dd>
+Beyond technical skills, I’m deeply curious about how tech impacts businesses and society.  
+I’ve explored several business case studies and continuously strive to build software that aligns with user needs and market trends.  
 
-                <dt><strong>Name</strong></dt>
-                <dd>Sanjana Krishna Bhat</dd>
+I’m always eager to learn, collaborate, and take on new challenges.  
+Let’s connect and build something impactful together!
 
-                <dt><strong>SRN</strong></dt>
-                <dd>01fe22bcs163</dd>
+---
 
-                <dt><strong>Course Instructor</strong></dt>
-                <dd>Prof. Prakash Hegade</dd>
+## 💻 Skills
 
-                <dt><strong>University</strong></dt>
-                <dd>KLE Technological University</dd>
+### Technical Skills
+- **Languages:** C, C++, Java, Python, SQL
+- **Web Technologies:** HTML, CSS, JavaScript, Node.js, React.js, Express.js
+- **Databases:** MySQL, MongoDB
 
-                <dt><strong>Domain</strong></dt>
-                <dd>Walmart</dd>
-            </dl>
-<!--             <blockquote>“The only way to do great work is to love what you do.” – Steve Jobs</blockquote> -->
-        </section>
-    </main>
+### Soft Skills
+- Communication
+- Teamwork
+- Problem Solving
 
-    <!-- Footer -->
-    <footer>
-        <p>© 2025 Sanjana Bhat | All rights reserved.</p>
-    </footer>
+---
 
-</body>
+## 🛒 Domain Chosen: Walmart
 
-</html>
+Walmart Inc. is a multinational retail corporation that operates a chain of hypermarkets, discount department stores, and grocery stores. Headquartered in Bentonville, Arkansas, Walmart was founded by Sam Walton in 1962 and incorporated on October 31, 1969.
+
+With a strong presence both in the United States and internationally, Walmart is known for its cost leadership strategy, massive supply chain, and use of technology to improve retail experiences. The company has consistently ranked among the top Fortune Global 500 companies and continues to drive innovation in retail through AI, automation, and data-driven solutions.
+
+This portfolio explores various innovative business cases that showcase how the company matches technology to stay ahead in the global market.
+
+---
+
+## 📈 Business Cases
+
+### 1. Inventory Management System
+Uses AI and data structures to track and forecast inventory in real-time to reduce stockouts and automate restocking.
+
+### 2. Autonomous Delivery Trucks
+Uses autonomous vehicles for last-mile delivery, enhancing logistics and reducing costs.
+
+### 3. AI-Powered Customer Service Chatbots
+Chatbots handle queries like order tracking and availability, improving customer satisfaction.
+
+### 4. Personalized Shopping Experience
+Machine learning provides product recommendations, increasing engagement and conversion.
+
+### 5. Predictive Analytics for Pricing Strategy
+Uses real-time analytics to adjust prices based on demand, competition, and market trends.
+
+---
+
+## 📚 Portfolio Details
+
+- **Course Name:** Algorithmic Problem Solving  
+- **Course Code:** Course Code Placeholder  
+- **Name:** Sanjana Krishna Bhat  
+- **SRN:** 01fe22bcs163  
+- **Course Instructor:** Prof. Prakash Hegade  
+- **University:** KLE Technological University  
+- **Domain:** Walmart
+
+---
+
+## 📄 License
+
+© 2025 Sanjana Bhat | All rights reserved.
