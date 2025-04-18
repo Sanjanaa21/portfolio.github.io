@@ -1,17 +1,21 @@
-/* Global Styles */
-body {
-    font-family: 'Montserrat', sans-serif;
+/* General Reset & Global Styles */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
     background-color: #f4f4f4;
     color: #333;
+    line-height: 1.6;
 }
 
 /* Header and Navigation */
 header {
     background-color: #2c3e50;
-    padding: 1rem 0;
+    padding: 1.5rem 0;
 }
 
 .navbar .nav-container {
@@ -23,9 +27,10 @@ header {
 
 .nav-logo {
     color: #fff;
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-weight: 700;
     text-decoration: none;
+    letter-spacing: 1px;
 }
 
 .nav-links {
@@ -34,13 +39,14 @@ header {
 }
 
 .nav-links li {
-    margin: 0 1rem;
+    margin-left: 2rem;
 }
 
 .nav-links a {
     color: #fff;
     text-decoration: none;
     font-size: 1.1rem;
+    transition: color 0.3s ease;
 }
 
 .nav-links a:hover {
@@ -51,41 +57,48 @@ header {
 .hero {
     background-color: #1abc9c;
     color: #fff;
-    padding: 100px 0;
+    padding: 120px 0;
     text-align: center;
 }
 
 .hero h1 {
-    font-size: 3rem;
-    margin-bottom: 10px;
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    letter-spacing: 2px;
 }
 
 .hero p {
     font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
 }
 
 /* Section Styles */
 .section {
-    padding: 3rem 2rem;
+    padding: 4rem 2rem;
     margin: 2rem 0;
     background-color: #fff;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
 }
 
 .section h2 {
-    text-align: center;
     font-size: 2.5rem;
+    text-align: center;
     margin-bottom: 1.5rem;
+    font-weight: 600;
+    color: #333;
 }
 
 .project, .use-case {
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
-/* Form */
+/* Form Styles */
 .form-group {
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
 }
 
 input, textarea {
@@ -94,6 +107,13 @@ input, textarea {
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 1rem;
+    margin-top: 0.5rem;
+    transition: border-color 0.3s ease;
+}
+
+input:focus, textarea:focus {
+    border-color: #1abc9c;
+    outline: none;
 }
 
 button {
@@ -104,20 +124,69 @@ button {
     border: none;
     cursor: pointer;
     border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 
 button:hover {
     background-color: #34495e;
 }
 
-/* Footer */
+/* Footer Styles */
 footer {
     text-align: center;
     padding: 2rem;
     background-color: #2c3e50;
     color: white;
+    margin-top: 3rem;
 }
 
 footer p {
     font-size: 1.1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar .nav-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+
+    .nav-links li {
+        margin: 0.5rem 0;
+    }
+
+    .hero {
+        padding: 80px 0;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .section {
+        padding: 3rem 1.5rem;
+    }
+
+    footer {
+        padding: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .section h2 {
+        font-size: 2rem;
+    }
 }
