@@ -9,28 +9,27 @@ body {
 }
 
 /* Header */
-/* Header Styling */
 header {
-    background-color: #fdfdfd;
-    padding: 60px 20px;
+    background-color: #ffffff;
+    padding: 40px 20px;
     text-align: center;
-    border-bottom: 1px solid #e0e0e0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 header h1 {
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: #2c3e50;
+    font-size: 2rem;
+    font-weight: 600;
     margin-bottom: 10px;
+    color: #222;
 }
 
 header p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 400;
     color: #555;
-    max-width: 700px;
-    margin: 0 auto;
-    line-height: 1.6;
 }
 
 /* Sections */
@@ -151,3 +150,4 @@ footer {
         padding: 20px 15px;
     }
 }
+
