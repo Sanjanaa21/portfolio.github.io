@@ -55,9 +55,9 @@ p, li, dd {
     margin-bottom: 10px;
 }
 
-#walmart-intro {
+/* #walmart-intro {
     background-color: #eef5fc; /* Light blue background to distinguish */
-}
+} */
 
 ul {
     padding-left: 20px;
@@ -83,6 +83,25 @@ li {
     border-radius: 8px;
     margin-bottom: 20px;
 }
+#contact ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+#contact li a {
+    color: #1a73e8;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+#contact li a:hover {
+    color: #0c47a1;
+}
+
 
 /* Portfolio Details Section */
 #details dl {
