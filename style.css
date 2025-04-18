@@ -1,160 +1,152 @@
-/* Reset and Base Styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
+/* Google Font */
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #f0f0f0; /* Warm gray background */
-    color: #4f4f4f; /* Slate gray text */
+    margin: 0;
+    padding: 0;
     line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
 }
 
-/* Main Layout */
-main {
-    max-width: 1100px;
-    margin: 0 auto;
+/* Header */
+header {
+    background-color: #ffffff;
     padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
-/* Section Styling */
-.section {
-    background: #ffffff; /* White cards */
-    padding: 40px;
-    margin-bottom: 40px;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-    transition: box-shadow 0.3s ease-in-out;
-}
-
-.section:hover {
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
-}
-
-h2 {
+header h1 {
     font-size: 2rem;
-    margin-bottom: 20px;
-    color: #2c2c2c; /* Dark charcoal */
-    border-bottom: 2px solid #2c2c2c;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+header p {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #555;
+}
+
+/* Sections */
+.section {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.03);
+}
+
+.section h2 {
+    font-size: 1.8rem;
+    margin-top: 0;
+    padding-top: 30px;
+    color: #2d2d2d;
+    border-bottom: 2px solid #eee;
     padding-bottom: 10px;
 }
 
-h3 {
-    font-size: 1.4rem;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    color: #2c2c2c;
-}
-
-/* Paragraph and List */
-p, li, dd {
+/* Paragraphs */
+.section p {
     font-size: 1rem;
-    color: #4f4f4f;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
+/* Lists */
 ul {
     padding-left: 20px;
-}
-
-li {
-    margin-bottom: 8px;
-}
-
-/* About Me Additional Styling */
-#about {
-    background-color: #ffffff;
-    border-radius: 12px;
-    padding: 40px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-}
-
-/* Business Case Styling */
-.use-case {
-    background-color: #f9f9f9;
-    padding: 20px;
-    border-left: 4px solid #e67e22; /* Accent: Muted orange */
-    border-radius: 8px;
     margin-bottom: 20px;
 }
 
-/* Contact (Find Me Online) Styling */
-#contact ul {
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-    gap: 20px;
-    justify-content: center;
+ul li {
+    margin-bottom: 8px;
 }
 
-#contact li a {
-    color: #e67e22;
-    font-weight: 500;
+/* Use Case Cards */
+.use-case {
+    background-color: #f5f5f5;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-left: 4px solid #007acc;
+    border-radius: 8px;
+}
+
+.use-case h3 {
+    margin-top: 0;
+    color: #007acc;
+}
+
+/* Contact Links */
+#contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contact li {
+    margin: 10px 0;
+}
+
+#contact a {
     text-decoration: none;
+    color: #007acc;
+    font-weight: 500;
     transition: color 0.3s;
 }
 
-#contact li a:hover {
-    color: #b85810;
-}
-
-/* Portfolio Details Section */
-#details dl {
-    display: grid;
-    grid-template-columns: max-content 1fr;
-    row-gap: 10px;
-    column-gap: 20px;
-}
-
-#details dt {
-    font-weight: 600;
-    color: #2c2c2c;
-}
-
-#details dd {
-    margin: 0;
-    color: #666;
-}
-
-/* Quote Styling */
-blockquote {
-    margin-top: 30px;
-    font-style: italic;
+#contact a:hover {
     color: #e67e22;
-    padding-left: 20px;
+}
+
+/* Portfolio Details */
+dl {
+    margin: 0;
+}
+
+dt {
+    font-weight: 600;
+    margin-top: 10px;
+    color: #444;
+}
+
+dd {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+/* Blockquote */
+blockquote {
+    font-style: italic;
+    background: #f0f0f0;
     border-left: 4px solid #e67e22;
+    padding: 10px 20px;
+    margin: 30px 0;
+    border-radius: 8px;
+    color: #444;
 }
 
 /* Footer */
 footer {
+    background-color: #222;
+    color: #fff;
     text-align: center;
-    background-color: #2c2c2c;
-    color: white;
-    padding: 20px 0;
+    padding: 15px;
     font-size: 0.9rem;
+    margin-top: 40px;
 }
 
-/* Responsive Design */
+/* Responsive */
 @media (max-width: 768px) {
-    main {
-        padding: 20px;
-    }
-
-    .section {
-        padding: 20px;
-    }
-
-    h2 {
+    header h1 {
         font-size: 1.6rem;
     }
 
-    h3 {
-        font-size: 1.2rem;
-    }
-
-    #details dl {
-        grid-template-columns: 1fr;
+    .section {
+        padding: 20px 15px;
     }
 }
