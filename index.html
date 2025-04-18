@@ -1,40 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <meta name="description" content="Manoj Pandekamat's portfolio showcasing skills, projects, and contact details">
+    <meta name="author" content="Manoj Pandekamat">
+    <title>Sanjana Bhat | Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<!--     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet"> -->
 </head>
+
 <body>
+
+    <!-- Navigation -->
     <header>
-        <h1>Hello, I'm Sanjana Bhat 👋</h1>
-        <p>I am passionate about technology and problem-solving. Here's a glimpse of my work:</p>
+        <nav class="navbar">
+            <div class="nav-container">
+                <a href="#" class="nav-logo">Sanjana Krishna Bhat</a>
+                <ul class="nav-links">
+                    <li><a href="#AboutMe">About Me</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#business-cases">Business Cases</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#details">Details</a></li>
+                </ul>
+            </div>
+        </nav>
     </header>
 
-    <section>
-        <h2>🛠️ Projects</h2>
-        <ul>
-            <li><strong>Project 1</strong>: A short description of your project1.</li>
-            <li><strong>Project 2</strong>: A short description of another project2.</li>
-        </ul>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Hello, I'm Sanjana Bhat</h1>
+            <p>Passionate Software Developer | Problem Solver | Innovator</p>
+        </div>
+    </section>
 
-        <h2>🚀 Skills</h2>
-        <ul>
-            <li>C++, Python, C</li>
-            <li>Data Structures and Algorithms</li>
-            <li>Web Development (React.js, Node.js)</li>
-        </ul>
+    <!-- Main Content -->
+    <main>
 
-        <h2>🌐 Find Me Online</h2>
-        <ul>
-<!--             <li><a href="https://github.com/your-github-username" target="_blank">GitHub</a></li> -->
-            <li><a href="https://github.com/Sanjanaa21" target="_blank">GitHub</a></li>
-            <li><a href="www.linkedin.com/in/sanjana-bhat-57992626a" target="_blank">LinkedIn</a></li>
-        </ul>
+        <!-- About Me Section -->
+        <section id="AboutMe" class="section">
+            <h2>About Me</h2>
+            <p>
+                I am passionate about technology and problem-solving.
+            </p>
+        </section>
 
-        <h2>Portfolio Topic</h2>
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <h2>Education</h2>
+            <div class="education">
+                <h3>Bachelor of Engineering in Computer Science</h3>
+                <p>KLE Technological University</p>
+                <p>Expected Graduation: 2026</p>
+                <p><strong>CGPA: </strong>9.20</p>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <h3>Technical Skills</h3>
+            <ul>
+                <li><strong>Languages:</strong> C, C++, Java, Python, SQL</li>
+                <li><strong>Web Technologies:</strong> HTML, CSS, JavaScript, Node.js, React.js, Express.js</li>
+                <li><strong>Databases:</strong> MySQL, MongoDB</li>
+                <li><strong>AI/ML:</strong> Pandas, TensorFlow, Scikit-learn</li>
+            </ul>
+
+<!--             <h3>Soft Skills</h3>
+            <ul>
+                <li>Communication</li>
+                <li>Teamwork</li>
+                <li>Problem Solving</li>
+                <li>Time Management</li>
+            </ul> -->
+        </section>
+
+        <!-- Projects Section -->
+<!--         <section id="projects" class="section">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Smart Parking System using ATmega32</h3>
+                <p>
+                    Designed an automated parking system using the ATmega32 microcontroller. Integrated IR sensors
+                    for vehicle detection and stepper motors for gate control. The system is fully simulated in
+                    Proteus with custom firmware.
+                </p>
+                <p><strong>Technologies Used:</strong> ATmega32, IR Sensors, Stepper Motors, Proteus</p>
+                <a href="https://github.com/ManojPandekamat/Autometic-vehicle-Parking-system" target="_blank">
+                    View on GitHub
+                </a>
+            </div>
+        </section> -->
+
+       <!-- Business Cases Section -->
+<section id="business-cases" class="section">
+    <h2>Top Business Cases at Walmart</h2>
+    
+    <div class="use-case">
+        <h3>Walmart's Inventory Management System</h3>
+        <p>
+            Walmart's advanced inventory management system uses AI and machine learning to track and forecast inventory levels in real-time. This system helps reduce stockouts, optimize shelf space, and improve the overall supply chain efficiency. The AI algorithms predict demand for various products and help automate restocking processes.
+        </p>
+    </div>
+
+    <div class="use-case">
+        <h3>Walmart's Autonomous Delivery Trucks</h3>
+        <p>
+            Walmart is exploring the use of autonomous delivery trucks to reduce delivery times and costs. By using AI-powered trucks, Walmart can improve its delivery network's efficiency, providing faster and more reliable delivery to customers, especially in remote areas. This innovation is part of Walmart's effort to leverage autonomous vehicles in last-mile delivery.
+        </p>
+    </div>
+
+    <div class="use-case">
+        <h3>Walmart's AI-Powered Customer Service Chatbots</h3>
+        <p>
+            Walmart has implemented AI-driven chatbots in its customer service channels to enhance user experience and provide instant support. These bots can handle a wide range of customer queries, from order tracking to product availability, helping reduce wait times and improve customer satisfaction.
+        </p>
+    </div>
+
+    <div class="use-case">
+        <h3>Walmart's Personalized Shopping Experience</h3>
+        <p>
+            Walmart is using machine learning algorithms to personalize its online shopping experience. By analyzing customer behavior and preferences, Walmart can offer personalized recommendations and promotions, which increases customer engagement and conversion rates. This approach is driving growth in Walmart’s e-commerce business.
+        </p>
+    </div>
+
+    <div class="use-case">
+        <h3>Walmart's Predictive Analytics for Pricing Strategy</h3>
+        <p>
+            Walmart utilizes predictive analytics to optimize pricing strategies in real-time based on various factors such as market conditions, competitor pricing, and demand fluctuations. This helps Walmart remain competitive while maximizing profit margins and customer satisfaction through dynamic pricing.
+        </p>
+    </div>
+</section>
+
+
+        <!-- Contact Section -->
+<!--         <section id="contact" class="section">
+            <h2>Contact Me</h2>
+            <form action="https://formsubmit.co/mpandekamat@gmail.com" method="POST">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" required placeholder="Write your message here..." rows="6"></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </section> -->
+
+        <!-- Portfolio Details Section -->
+       <section id="details" class="section">
+            <h2>Portfolio Details</h2>
+<!--             <dl>
+                <dt>Course Name</dt>
+                <dd>Algorithmic Problem Solving</dd>
+                <dt>Course Code</dt>
+                <dd>ABC123</dd>
+                <dt>University</dt>
+                <dd>KLE Technological University</dd>
+            </dl> -->
         <dl>
             <dt>Course Name</dt>
             <dd>Algorithmic Problem Solving</dd>
@@ -60,5 +195,15 @@
 
         <blockquote>“The only way to do great work is to love what you do.” – Steve Jobs</blockquote>
     </section>
+
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Manoj Pandekamat | All rights reserved.</p>
+    </footer>
+
 </body>
+
 </html>
