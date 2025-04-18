@@ -1,4 +1,3 @@
-# portfolio.github.io
 # Sanjana Bhat | Portfolio 👋
 
 I am passionate about technology and problem-solving.
