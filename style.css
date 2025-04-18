@@ -1,110 +1,133 @@
-/* Reset default margin and padding */
+/* === Reset and Base Setup === */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Global Styles */
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #f5f5f5;
-    margin: 0;
-    padding: 20px; /* Adding padding to the body to prevent sticking at the top */
+    background-color: #f0f2f5;
+    padding: 24px;
     display: flex;
     justify-content: center;
-    align-items: flex-start; /* Aligns content towards the top */
+    align-items: flex-start;
     min-height: 100vh;
+    color: #333;
 }
 
-/* Main Container */
+/* === Layout Container === */
 section {
-    background-color: white;
+    background-color: #ffffff;
     padding: 2rem;
-    width: 90%;
-    max-width: 800px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    text-align: center;
-    margin-top: 30px; /* Adding margin to ensure there's space from the top */
+    width: 100%;
+    max-width: 840px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    margin-top: 40px;
+    text-align: left;
 }
 
-/* Header */
+/* === Header Section === */
 header {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #2e7d32;
+    color: #ffffff;
     padding: 2rem;
     border-radius: 8px;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
 }
 
 header h1 {
-    font-size: 2rem;
-    margin: 0;
+    font-size: 2.4rem;
+    font-weight: 600;
 }
 
 header p {
-    margin: 1rem 0 0;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    opacity: 0.9;
 }
 
-/* Section Titles */
+/* === Headings === */
 h2 {
-    color: #4CAF50;
-    margin-bottom: 1rem;
+    color: #2e7d32;
+    font-size: 1.6rem;
+    margin: 2rem 0 1rem;
 }
 
-/* List Items */
+/* === List Styling === */
 ul {
-    list-style: none;
-    padding: 0;
+    list-style-type: none;
+    padding-left: 0;
 }
 
 ul li {
-    background-color: #e7f7e7;
-    margin-bottom: 0.5rem;
-    padding: 0.75rem;
-    border-radius: 5px;
+    background-color: #e8f5e9;
+    margin-bottom: 0.6rem;
+    padding: 0.75rem 1rem;
+    border-radius: 6px;
+    font-size: 1rem;
 }
 
-/* Links */
+/* === Link Styling === */
 a {
-    color: #4CAF50;
+    color: #2e7d32;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 600;
+    transition: all 0.2s ease;
 }
 
 a:hover {
     text-decoration: underline;
+    opacity: 0.85;
 }
 
-/* Definition List */
+/* === Definition List === */
 dl dt {
-    font-weight: bold;
-    color: #333;
-    margin-top: 1rem;
+    font-weight: 600;
+    color: #222;
+    margin-top: 1.2rem;
+    font-size: 1.05rem;
 }
 
 dl dd {
-    margin-left: 1.5rem;
-    color: #666;
+    margin-left: 1.2rem;
+    color: #555;
+    line-height: 1.6;
 }
 
-/* Blockquote */
+/* === Blockquote === */
 blockquote {
     font-style: italic;
-    color: #555;
-    border-left: 4px solid #4CAF50;
+    color: #444;
+    border-left: 4px solid #2e7d32;
     padding-left: 1rem;
     margin-top: 2rem;
+    background-color: #f1f8f1;
+    padding: 1rem;
+    border-radius: 6px;
 }
 
-/* Responsive Design */
+/* === Responsive Adjustments === */
 @media (max-width: 600px) {
+    body {
+        padding: 16px;
+    }
+
     section {
         padding: 1.5rem;
     }
 
     header {
         padding: 1.5rem;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.4rem;
     }
 }
