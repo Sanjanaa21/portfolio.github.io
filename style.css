@@ -1,4 +1,4 @@
-/* General Reset & Global Styles */
+/* Reset and Base Styles */
 * {
     margin: 0;
     padding: 0;
@@ -7,143 +7,136 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #f4f4f4;
+    background-color: #f4f6f8;
     color: #333;
     line-height: 1.6;
 }
 
-/* Header and Navigation */
-header {
-    background-color: #2c3e50;
-    padding: 1.5rem 0;
-}
-
-.navbar .nav-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 2rem;
-}
-
-.nav-logo {
-    color: #fff;
-    font-size: 2rem;
-    font-weight: 700;
-    text-decoration: none;
-    letter-spacing: 1px;
-}
-
-.nav-links {
-    list-style: none;
-    display: flex;
-}
-
-.nav-links li {
-    margin-left: 2rem;
-}
-
-.nav-links a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.1rem;
-    transition: color 0.3s ease;
-}
-
-.nav-links a:hover {
-    color: #1abc9c;
-}
-
-/* Hero Section */
-.hero {
-    background-color: #1abc9c;
-    color: #fff;
-    padding: 120px 0;
-    text-align: center;
-}
-
-.hero h1 {
-    font-size: 3.5rem;
-    font-weight: 700;
-    margin-bottom: 1rem;
-    letter-spacing: 2px;
-}
-
-.hero p {
-    font-size: 1.2rem;
-    max-width: 800px;
+/* Main Layout */
+main {
+    max-width: 1100px;
     margin: 0 auto;
-    line-height: 1.6;
+    padding: 40px 20px;
 }
 
-/* Section Styles */
+/* Section Styling */
 .section {
-    padding: 4rem 2rem;
-    margin: 2rem auto;
-    max-width: 1000px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    padding: 40px;
+    margin-bottom: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.3s ease-in-out;
 }
 
-.section h2 {
-    font-size: 2.5rem;
-    text-align: center;
-    margin-bottom: 1.5rem;
+.section:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #0a66c2;
+    border-bottom: 2px solid #0a66c2;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.4rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #1a1a1a;
+}
+
+/* Paragraph and List */
+p, li, dd {
+    font-size: 1rem;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* About Me Additional Styling */
+#about {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 40px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* Business Case Styling */
+.use-case {
+    background-color: #f9fafc;
+    padding: 20px;
+    border-left: 4px solid #0a66c2;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Portfolio Details Section */
+#details dl {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    row-gap: 10px;
+    column-gap: 20px;
+}
+
+#details dt {
     font-weight: 600;
     color: #333;
 }
 
-.project, .use-case {
-    margin-bottom: 2rem;
+#details dd {
+    margin: 0;
+    color: #666;
 }
 
-.use-case h3, .project h3 {
-    color: #1abc9c;
-    font-size: 1.5rem;
-    margin-bottom: 0.5rem;
-}
-
-/* Form Styles */
-.form-group {
-    margin-bottom: 1.5rem;
-}
-
-input, textarea {
-    width: 100%;
-    padding: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 1rem;
-    margin-top: 0.5rem;
-    transition: border-color 0.3s ease;
-}
-
-input:focus, textarea:focus {
-    border-color: #1abc9c;
-    outline: none;
-}
-
-button {
-    background-color: #1abc9c;
-    color: #fff;
-    padding: 0.75rem 2rem;
-    font-size: 1rem;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-button:hover {
-    background-color: #16a085;
+/* Quote Styling */
+blockquote {
+    margin-top: 30px;
+    font-style: italic;
+    color: #0a66c2;
+    padding-left: 20px;
+    border-left: 4px solid #0a66c2;
 }
 
 /* Footer */
 footer {
     text-align: center;
-    padding: 2rem 0;
-    background-color: #2c3e50;
-    color: #fff;
-    margin-top: 2rem;
-} 
+    background-color: #0a66c2;
+    color: white;
+    padding: 20px 0;
+    font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    main {
+        padding: 20px;
+    }
+
+    .section {
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    #details dl {
+        grid-template-columns: 1fr;
+    }
+}
+
 
