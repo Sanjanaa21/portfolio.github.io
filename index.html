@@ -66,14 +66,66 @@
                 <p><b>Market Benefits: </b>Faster Access, supports automated inventory alerts</p>
                 <h3>Algorithm, Design Technniques, Performance Annalysis:</h3>
                 <ul>
-                    <li><strong>Data Structure used:</strong>AVL Tree-a self-balancing Binary Search Tree.Balancing Technique: Rotations (Left, Right, Left-Right, Right-Left) after insertions/deletions to keep tree height minimal.</li>
+                    <li><strong>Data Structure used: </strong>AVL Tree-a self-balancing Binary Search Tree.Balancing Technique: Rotations (Left, Right, Left-Right, Right-Left) after insertions/deletions to keep tree height minimal.</li>
                     <li><strong>Design Approach: </strong>Divide-and-conquer, recursive tree manipulation.</li>
-                    <li><strong>Traversal for Reports:</strong>In-order traversal for sorted inventory listing.</li>
-                     <li><strong>Performance Focus:</strong> Ensures worst-case operations remain logarithmic (unlike standard BSTs).</li>
+                    <li><strong>Traversal for Reports: </strong>In-order traversal for sorted inventory listing.</li>
+                     <li><strong>Performance Focus: </strong> Ensures worst-case operations remain logarithmic (unlike standard BSTs).</li>
+                    <li><strong>Time Complexity: </strong>
+                        <ul>
+                            <li>Search: O(log n)</li>
+                            <li>Insertion: O(log n)</li>
+                            <li>Deletion:  O(log n)</li>
+                            <li>Traversal: O(n)</li>
+                        </ul></li>
+                    <li><strong>Space Complexity: </strong>O(n) where n is thenumber of inventory items.</li>
                 </ul>
-                <a href="Codes/AVL.c" target="_blank">AVL Tree code</a>a>
+                
+                <a href="Codes/AVL.c" target="_blank">AVL Tree code</a>
             
             </div>
+            
+             <div class="use-case">
+  <h3>Clustering Products into Categories using Targan's Algorithm</h3>
+  <p>Tarjan's Algorithm can be adapted to identify groups of products that are strongly connected by some criterion, such as co-purchase patterns, shared attributes, or customer interactions.</p>
+  <img src="Images/Tarjan's_Algorithm_Animation.gif" alt="Targan's algorithm" width="400"/>
+
+  <h4>Challenges:</h4>
+  <ul>
+    <li>High-dimensional product data with overlapping attributes.</li>
+    <li>Dynamic product changes (new arrivals, discontinued items).</li>
+   
+  </ul>
+
+  <h4>Market Benefits:</h4>
+  <ul>
+    <li>Improves product recommendation systems and personalization.</li>
+    <li>Enables better shelf arrangement and inventory grouping.</li>
+  </ul>
+
+  <h4>Algorithms, Design Techniques, Performance Analysis:</h4>
+  <ul>
+    <li><strong>Data Structure Used:</strong> Graph-based structure to model product relationships.</li>
+    <li><strong>Algorithm:</strong> Targens (Targeted Generalized Clustering) algorithm to group products based on features and similarity metrics.</li>
+    <li><strong>Design Approach:</strong> Bottom-up hierarchical clustering with feedback refinement.</li>
+    <li><strong>Feature Handling:</strong> Uses similarity vectors derived from product attributes (e.g., category, brand, price, tags).</li>
+    <li><strong>Performance Focus:</strong> Balances clustering accuracy with computational efficiency for large-scale retail datasets.</li>
+  </ul>
+
+  <h4>Time Complexity:</h4>
+  <ul>
+    <li><strong>Clustering Step:</strong> O(n²) in worst case, optimized to near-linear with approximate techniques and sparse representations.</li>
+    <li><strong>Similarity Calculation:</strong> O(n × d), where <code>n</code> = number of products and <code>d</code> = feature dimensions.</li>
+  </ul>
+
+  <h4>Space Complexity:</h4>
+  <ul>
+    <li>O(n + e), where <code>n</code> = number of nodes (products), <code>e</code> = number of edges (similarities).</li>
+    <li>Additional O(n × d) space for storing product feature vectors.</li>
+  </ul>
+    <a href="https://github.com/Sanjanaa21/portfolio.github.io/blob/main/Codes/Tarjan's.cpp" target="_blank">Targan's code</a>
+
+</div>
+
             <div class="use-case">
                 <h3>Autonomous Delivery Trucks</h3>
                 <p>Uses autonomous vehicles for last-mile delivery, enhancing logistics and reducing costs.</p>
