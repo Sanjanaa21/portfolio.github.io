@@ -61,7 +61,7 @@ Uses real-time analytics to adjust prices based on demand, competition, and mark
 ## 📚 Portfolio Details
 
 - **Course Name:** Algorithmic Problem Solving  
-- **Course Code:** Course Code Placeholder  
+- **Course Code:** 24ECSE309 
 - **Name:** Sanjana Krishna Bhat  
 - **SRN:** 01fe22bcs163  
 - **Course Instructor:** Prof. Prakash Hegade  
